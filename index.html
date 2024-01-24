@@ -11,12 +11,104 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
   </head>
-  <body class="container mx-auto">
-    <p class="text-red-600 bg-blue-800 text-4xl font-semibold text-center mt-4">
-      mithun <span class="text-orange-400 px-4 py-8">joy </span>
-    </p>
-    <button class="btn btn-accent mt-4 ml-[48%]">oky!</button>
-    <img class="translate-y-8 container mx-auto" src="Images/1.png" alt="" />
+  <body class="font-manrope">
+    <header></header>
+
+    <main>
+      
+      <!-- QNA section -->
+      <section class="container mx-auto px-8 my-8 lg:px-24">
+        <div
+          class="text-center border-b border-t border-dashed my-6 py-4 space-y-2"
+        >
+          <h1 class="text-4xl font-bold">Clients Question</h1>
+          <p class="text-gray-500">
+            Get more info about us!! <br />
+            Some query's are given below ::>>
+          </p>
+        </div>
+          <div class="lg:flex justify-evenly gap-4 border rounded-lg lg:py-4 p-2">
+            <div class="lg:mt-3 lg:pl-8">
+              <img  src="Images/11.png" alt="" />
+            </div>
+          <div class="lg:w-3/4 lg:pr-8">
+            <div class="collapse collapse-plus ">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                Our Equipment
+              </div>
+              <div class="collapse-content"> 
+                <p class="text-gray-500">All sports and gym accessories</p>
+              </div>
+            </div>
+            <hr>
+            <div class="collapse collapse-plus ">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Hockey Training
+              </div>
+              <div class="collapse-content"> 
+                <p class="text-gray-500">Experienced coach over the world.</p>
+              </div>
+            </div> <hr>
+            <div class="collapse collapse-plus ">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Private Lessons
+              </div>
+              <div class="collapse-content"> 
+                <p class="text-gray-500">Special mental and health team</p>
+              </div>
+            </div>
+            <hr>
+            <div class="collapse collapse-plus ">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Sky Touring
+              </div>
+              <div class="collapse-content"> 
+                <p class="text-gray-500">Economy class team flight</p>
+              </div>
+            </div>
+            <hr>
+            <div class="collapse collapse-plus ">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Booking
+              </div>
+              <div class="collapse-content"> 
+                <p class="text-gray-500">+110-543-786</p>
+              </div>
+            </div><hr>
+            <div class="collapse collapse-plus ">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Pricings
+              </div>
+              <div class="collapse-content"> 
+                <p class="text-gray-500">Starts from 500$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
   </body>
 </html>
